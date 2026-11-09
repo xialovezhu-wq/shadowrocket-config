@@ -1,0 +1,15 @@
+{
+  "release": "v2026.11.09.1",
+  "upstream_repository": "blackmatrix7/ios_rule_script",
+  "upstream_commit": "0b6897dc17e0c513d25449c935a9694818e32f0c",
+  "upstream_path": "rule/Shadowrocket/AdvertisingLite/AdvertisingLite_Domain.list",
+  "upstream_data_header_timestamp": "2025-12-08 02:03:38",
+  "upstream_sha256": "e43ab7970cfa5bde9b222a18c0f5673dcced42e1bfada25f04254a514231ec34",
+  "distributed_file": "rules/vendor/advertising-lite.domain-set",
+  "distributed_sha256": "24e4f98eb0463c611920cf483b6f537eb03ebda933741a30d3118999eb6fd137",
+  "domain_count": 37692,
+  "exact_count": 23753,
+  "suffix_count": 13939,
+  "changes": "Metadata header only; domain entries retained byte-for-byte as lines.",
+  "license": "GPL-2.0"
+}
