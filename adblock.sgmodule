@@ -1,0 +1,9 @@
+#!name=手机基础广告过滤
+#!desc=v2026.11.09.1 · 固定 AdvertisingLite 纯域名名单；可独立关闭
+
+# 只有确认误拦截后，才在拦截项之前加入精确例外及正确出口。
+# 当前没有需要新增的已确认例外。停用本模块后由主配置正常分流。
+# 名单数据时间：2025-12-08；此版本不自动追随上游变化。
+
+[Rule]
+DOMAIN-SET,https://raw.githubusercontent.com/xialovezhu-wq/shadowrocket-config/07518a74290f2fb05f36ddd256c50e1b2f927e44/rules/vendor/advertising-lite.domain-set,REJECT

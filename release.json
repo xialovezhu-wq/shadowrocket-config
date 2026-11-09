@@ -1,0 +1,10 @@
+{
+  "version": "v2026.11.09.1",
+  "asset_commit": "07518a74290f2fb05f36ddd256c50e1b2f927e44",
+  "stable_config_url": "https://raw.githubusercontent.com/xialovezhu-wq/shadowrocket-config/main/mobile.conf",
+  "stable_module_url": "https://raw.githubusercontent.com/xialovezhu-wq/shadowrocket-config/main/adblock.sgmodule",
+  "config_import_url": "shadowrocket://config/add/https://raw.githubusercontent.com/xialovezhu-wq/shadowrocket-config/main/mobile.conf",
+  "module_import_url": "shadowrocket://install?module=https://raw.githubusercontent.com/xialovezhu-wq/shadowrocket-config/main/adblock.sgmodule",
+  "required_local_subscription_name": "WgetCloud",
+  "phone_validation": "pending first import and real-device verification"
+}
