@@ -71,7 +71,10 @@ def main() -> None:
         name = name.strip()
         require(name not in groups, "Duplicate group")
         require(options.strip().startswith("select,WgetCloud,use=true,policy-regex-filter="), "Group is not a manual local-subscription selector")
-        expression = options.split("policy-regex-filter=", 1)[1]
+        fields = [part.strip() for part in options.split(",")]
+        parameters = dict(part.split("=", 1) for part in fields[2:])
+        require(parameters.get("policy-select-name") == release["default_node_name"], "An update would reset the chosen default node")
+        expression = parameters["policy-regex-filter"]
         groups[name] = re.compile(expression)
     require(set(groups) == {"通用代理", "ChatGPT", "Claude", "Gemini"}, "Missing independent groups")
     for regex in groups.values():
