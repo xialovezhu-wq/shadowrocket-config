@@ -8,12 +8,12 @@
   "required_local_subscription_name": "WgetCloud",
   "phone_validation": "native configuration and ad-rule check passed; default-node update fix awaiting device verification",
   "sha256": {
-    "mobile.conf": "db99c6d049ef611603d48445b151755ec2ab699e229089a5b6a16764d3590e91",
+    "mobile.conf": "7cbe8bc8933fb8dd9670926487f7b584bb827a12b75e644216af4984ca4d37a1",
     "adblock.sgmodule": "c08e9977e86aca961138c8128428fc3cb5451a0b9ac11e5b01d6f055ea87b016",
     "qr/mobile.png": "2e94a3c2b227ef47f62b8fd7ac20bed11f204b2ac16b9bd762f69cbadbfed186",
     "qr/adblock.png": "720f85a748e0b66e2d847f599dde5a8676ddc3df625563fedaef567b53f6f07f",
     "rules/vendor/advertising-lite.domain-set": "24e4f98eb0463c611920cf483b6f537eb03ebda933741a30d3118999eb6fd137",
-    "versions/v2026.11.09.2/mobile.conf": "9a9826fc8d143f9b205582789e0875ab075373095e3216c4916a0999c05fbf60",
+    "versions/v2026.11.09.2/mobile.conf": "d352a3af8e7beaa034ed09447c4103ea1dc50c82895a9b7adf5d59c8354fff30",
     "versions/v2026.11.09.2/adblock.sgmodule": "c08e9977e86aca961138c8128428fc3cb5451a0b9ac11e5b01d6f055ea87b016"
   },
   "previous_release": {
@@ -22,5 +22,5 @@
     "frozen_config_url": "https://raw.githubusercontent.com/xialovezhu-wq/shadowrocket-config/46bf4bb71ceb67db56112210d4b22838112b1755/versions/v2026.11.09.1/mobile.conf",
     "frozen_module_url": "https://raw.githubusercontent.com/xialovezhu-wq/shadowrocket-config/46bf4bb71ceb67db56112210d4b22838112b1755/versions/v2026.11.09.1/adblock.sgmodule"
   },
-  "default_node_name": "美国 01"
+  "default_node_name": "🇺🇲 美国 01"
 }
