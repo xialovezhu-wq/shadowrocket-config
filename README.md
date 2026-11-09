@@ -46,6 +46,8 @@
 
 本仓库的完整版本同时保存主配置、模块和固定规则数据，固定版本地址见 [release.json](release.json)。回退时导入同一版本的两个文件；冻结的配置不含指回主分支的 `update-url`。恢复跟随更新时，重新使用上面的两个固定更新链接。
 
+固定首版：[v2026.11.09.1 主配置](https://raw.githubusercontent.com/xialovezhu-wq/shadowrocket-config/46bf4bb71ceb67db56112210d4b22838112b1755/versions/v2026.11.09.1/mobile.conf) · [同版广告模块](https://raw.githubusercontent.com/xialovezhu-wq/shadowrocket-config/46bf4bb71ceb67db56112210d4b22838112b1755/versions/v2026.11.09.1/adblock.sgmodule)。两个地址都锁定完整提交号。
+
 ## 首次手机验收
 
 分别使用 Wi-Fi 和蜂窝网络，查看连接日志，确认国内服务、三个 AI 服务及常用境外网站使用预期分组。再检查视频、登录、支付、推送、锁屏恢复，以及三轮 Wi-Fi／蜂窝切换。广告模块先关闭验证分流，再开启对比；若新旧配置下同一节点都慢，先检查线路或服务本身。

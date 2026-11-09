@@ -6,5 +6,17 @@
   "config_import_url": "shadowrocket://config/add/https://raw.githubusercontent.com/xialovezhu-wq/shadowrocket-config/main/mobile.conf",
   "module_import_url": "shadowrocket://install?module=https://raw.githubusercontent.com/xialovezhu-wq/shadowrocket-config/main/adblock.sgmodule",
   "required_local_subscription_name": "WgetCloud",
-  "phone_validation": "pending first import and real-device verification"
+  "phone_validation": "pending first import and real-device verification",
+  "release_commit": "46bf4bb71ceb67db56112210d4b22838112b1755",
+  "frozen_config_url": "https://raw.githubusercontent.com/xialovezhu-wq/shadowrocket-config/46bf4bb71ceb67db56112210d4b22838112b1755/versions/v2026.11.09.1/mobile.conf",
+  "frozen_module_url": "https://raw.githubusercontent.com/xialovezhu-wq/shadowrocket-config/46bf4bb71ceb67db56112210d4b22838112b1755/versions/v2026.11.09.1/adblock.sgmodule",
+  "sha256": {
+    "mobile.conf": "a8a0ab5afe8f8a8ced529fabe94f039e49a86ac49ce42c7f92b9fba9534e298c",
+    "adblock.sgmodule": "19e619eaa88c16ed257767393f6c45148a2b480e88413b3413f26e365bef4a62",
+    "qr/mobile.png": "2e94a3c2b227ef47f62b8fd7ac20bed11f204b2ac16b9bd762f69cbadbfed186",
+    "qr/adblock.png": "720f85a748e0b66e2d847f599dde5a8676ddc3df625563fedaef567b53f6f07f",
+    "rules/vendor/advertising-lite.domain-set": "24e4f98eb0463c611920cf483b6f537eb03ebda933741a30d3118999eb6fd137",
+    "versions/v2026.11.09.1/mobile.conf": "9fe3ddd07c2610a4154052d404c8ad6dd9de5d191a94ea2aa96e1a2f61d65b6e",
+    "versions/v2026.11.09.1/adblock.sgmodule": "19e619eaa88c16ed257767393f6c45148a2b480e88413b3413f26e365bef4a62"
+  }
 }
