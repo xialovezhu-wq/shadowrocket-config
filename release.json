@@ -6,7 +6,7 @@
   "config_import_url": "shadowrocket://config/add/https://raw.githubusercontent.com/xialovezhu-wq/shadowrocket-config/main/mobile.conf",
   "module_import_url": "shadowrocket://install?module=https://raw.githubusercontent.com/xialovezhu-wq/shadowrocket-config/main/adblock.sgmodule",
   "required_local_subscription_name": "WgetCloud",
-  "phone_validation": "native configuration and ad-rule check passed; default-node update fix awaiting device verification",
+  "phone_validation": "Native profile compiled; ad-domain rule matched REJECT; a remote profile update retained all four America 01 selections. Full network scenario acceptance not performed.",
   "sha256": {
     "mobile.conf": "7cbe8bc8933fb8dd9670926487f7b584bb827a12b75e644216af4984ca4d37a1",
     "adblock.sgmodule": "c08e9977e86aca961138c8128428fc3cb5451a0b9ac11e5b01d6f055ea87b016",
@@ -22,5 +22,8 @@
     "frozen_config_url": "https://raw.githubusercontent.com/xialovezhu-wq/shadowrocket-config/46bf4bb71ceb67db56112210d4b22838112b1755/versions/v2026.11.09.1/mobile.conf",
     "frozen_module_url": "https://raw.githubusercontent.com/xialovezhu-wq/shadowrocket-config/46bf4bb71ceb67db56112210d4b22838112b1755/versions/v2026.11.09.1/adblock.sgmodule"
   },
-  "default_node_name": "🇺🇲 美国 01"
+  "default_node_name": "🇺🇲 美国 01",
+  "release_commit": "e09e7e8e8744f9d7363809a0bcd833f1a2b5dd75",
+  "frozen_config_url": "https://raw.githubusercontent.com/xialovezhu-wq/shadowrocket-config/e09e7e8e8744f9d7363809a0bcd833f1a2b5dd75/versions/v2026.11.09.2/mobile.conf",
+  "frozen_module_url": "https://raw.githubusercontent.com/xialovezhu-wq/shadowrocket-config/e09e7e8e8744f9d7363809a0bcd833f1a2b5dd75/versions/v2026.11.09.2/adblock.sgmodule"
 }

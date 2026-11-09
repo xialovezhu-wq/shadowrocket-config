@@ -46,13 +46,15 @@
 
 本仓库的完整版本同时保存主配置、模块和固定规则数据，固定版本地址见 [release.json](release.json)。回退时导入同一版本的两个文件；冻结的配置不含指回主分支的 `update-url`。恢复跟随更新时，重新使用上面的两个固定更新链接。
 
+当前冻结版：[v2026.11.09.2 主配置](https://raw.githubusercontent.com/xialovezhu-wq/shadowrocket-config/e09e7e8e8744f9d7363809a0bcd833f1a2b5dd75/versions/v2026.11.09.2/mobile.conf) · [同版广告模块](https://raw.githubusercontent.com/xialovezhu-wq/shadowrocket-config/e09e7e8e8744f9d7363809a0bcd833f1a2b5dd75/versions/v2026.11.09.2/adblock.sgmodule)。
+
 固定首版：[v2026.11.09.1 主配置](https://raw.githubusercontent.com/xialovezhu-wq/shadowrocket-config/46bf4bb71ceb67db56112210d4b22838112b1755/versions/v2026.11.09.1/mobile.conf) · [同版广告模块](https://raw.githubusercontent.com/xialovezhu-wq/shadowrocket-config/46bf4bb71ceb67db56112210d4b22838112b1755/versions/v2026.11.09.1/adblock.sgmodule)。两个地址都锁定完整提交号。
 
 ## 首次手机验收
 
 分别使用 Wi-Fi 和蜂窝网络，查看连接日志，确认国内服务、三个 AI 服务及常用境外网站使用预期分组。再检查视频、登录、支付、推送、锁屏恢复，以及三轮 Wi-Fi／蜂窝切换。广告模块先关闭验证分流，再开启对比；若新旧配置下同一节点都慢，先检查线路或服务本身。
 
-已完成的是文件静态检查、节点筛选检查、公开内容检查、二维码解码及发布读回。没有将电脑端检查写成手机编译成功或实网验收通过；主配置已在手机编译，广告样例已命中拒绝策略；默认节点更新修复正在进行手机验证，尚未完成全部真实网络场景验收。
+已完成文件静态检查、节点筛选检查、公开内容检查、二维码解码及发布读回。手机已完成配置编译、广告样例拒绝匹配，并实际验证远程更新后四组仍选择“美国 01”；尚未完成全部 Wi-Fi／蜂窝、登录支付与锁屏恢复场景验收。
 
 ## 电脑维护
 
